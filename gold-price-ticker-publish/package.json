@@ -1,0 +1,47 @@
+{
+  "name": "dsh-gold-price-ticker",
+  "version": "1.1.0",
+  "description": "Live Shanghai Gold CNY/gram and London spot USD/oz ticker for the DeepSeek Harness sidebar, with today's open move and an axis-labelled trend chart.",
+  "type": "module",
+  "license": "MIT",
+  "author": "MI",
+  "homepage": "https://www.npmjs.com/package/dsh-gold-price-ticker",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "gold",
+    "gold-price",
+    "finance",
+    "ticker"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}

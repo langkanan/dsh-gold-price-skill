@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Gold price ticker icon">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe9a8"/>
+      <stop offset="0.45" stop-color="#e8b84b"/>
+      <stop offset="1" stop-color="#a86d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#1c1408"/>
+  <circle cx="32" cy="29" r="18" fill="url(#gold)" stroke="#fff0c2" stroke-width="1.5"/>
+  <circle cx="32" cy="29" r="13.5" fill="none" stroke="#7b4f08" stroke-width="1" opacity="0.55"/>
+  <text x="32" y="35" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#4a2c00">Au</text>
+  <path d="M14 53h10l3-4 5 7 4-5h14" fill="none" stroke="#f0c75e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

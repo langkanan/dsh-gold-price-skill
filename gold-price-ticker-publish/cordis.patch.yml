@@ -1,0 +1,3 @@
+- insert:
+    - id: gold-price-ticker
+      name: 'dsh-gold-price-ticker'

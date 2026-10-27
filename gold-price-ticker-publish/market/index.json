@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Gold & Markets",
+    "zh": "黄金与行情"
+  },
+  "description": {
+    "en": "A small, curated index of gold and market display plugins for DSH.",
+    "zh": "DSH 的黄金与行情展示插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": { "title": { "en": "UI Enhancements", "zh": "界面增强" } }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-gold-price-ticker",
+      "title": {
+        "en": "Live Gold Price",
+        "zh": "实时金价"
+      },
+      "description": {
+        "en": "Shows Shanghai Gold Au99.99 in CNY per gram beside London spot gold in USD per ounce, with the move from the open and an axis-labelled trend chart in the left sidebar.",
+        "zh": "在左侧栏显示上海金 Au99.99 人民币/克与伦敦金美元/盎司的实时对照，含今开涨幅和带坐标轴的走势图。"
+      },
+      "icon": "icon.svg",
+      "author": "MI",
+      "homepage": "https://www.npmjs.com/package/dsh-gold-price-ticker",
+      "metadata": {
+        "category": "ui",
+        "keywords": ["gold", "gold-price", "finance", "ticker", "sidebar"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.1.0",
+          "publishTimestamp": 1793019270,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.1-rc.3" }
+        }
+      ]
+    }
+  ]
+}
